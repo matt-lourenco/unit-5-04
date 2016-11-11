@@ -1,0 +1,128 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{411, 64}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "0",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "E6EC6C40-2E5C-436C-BEEB-488B823681B3",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "input_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{365, 24}, {291, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "C0297F24-F2B1-4B77-A948-8814AAD1D16C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter a number between 0 and 100:",
+          "name" : "enter_number_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{471, 104}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "add_number_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Enter",
+          "uuid" : "8D10C418-102D-4872-8DB3-14B032A3B927",
+          "class" : "Button",
+          "name" : "enter_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{411, 144}, {200, 200}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "font_name" : "<System>",
+          "editable" : true,
+          "frame" : "{{412, 284}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "F6527324-5003-4A34-A1C9-B376260DDB70",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "display_textview",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{233, 144}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "4800B9EF-6017-4CEC-908F-3738B094680E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Average: ",
+          "name" : "average_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{654, 144}, {150, 200}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "F7C57C79-E2D8-44C9-9360-C6E48116D600",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "error_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
